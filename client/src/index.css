@@ -1,0 +1,27 @@
+footer {
+  background: #000;
+  text-align: center;
+  padding: 50px 0;
+  width: 100%;
+}
+
+.social {
+  display: block;
+}
+
+.social a {
+  font-size: 18px;
+  margin: 0 8px;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
