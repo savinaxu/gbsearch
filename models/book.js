@@ -6,11 +6,14 @@ const bookSchema = new Schema({
         type: String,
         required: true
     },
+    subtitle: {
+        type: String
+    },
     authors: {
-        type: Array,
+        type: [String],
         required: true
     },
-    img: {
+    image: {
         typr: String,
         required: true
     },
@@ -22,9 +25,10 @@ const bookSchema = new Schema({
         type: String,
         required: true
     },
-    date: { 
-        type: Date, 
-        default: Date.now 
+    googleId: { 
+        type: String, 
+        required: true,
+        unique: true 
     }
 });
 

@@ -12,6 +12,8 @@
 
 
 footer {
+  position: fixed;
+  bottom: 0;
   background: #000;
   text-align: center;
   padding: 50px 0;
@@ -37,4 +39,14 @@ footer p {
   line-height: 20px;
   font-family: 'Roboto', sans-serif;
   color: #fff;
+}
+
+.btn-container {
+  float: right;
+}
+
+@media (max-width: 767px) {
+  .btn-container {
+    margin-bottom: 15px;
+  }
 }
