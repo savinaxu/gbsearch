@@ -24,7 +24,7 @@ function Nav() {
 
                     <li className="nav-item">
                         <Link
-                            to="/"
+                            to="/saved"
                             className={
                                 window.location.pathname === "/saved" 
                                 ? "nav-link active"
